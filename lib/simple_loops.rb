@@ -15,7 +15,7 @@ end
 
 def output_array (a)
   count = 0 
-  while 0 < a.length do 
+  while count < a.length do 
     puts a[count]
     count += 1 
   end 
